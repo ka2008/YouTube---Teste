@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.channel-header {
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture {
+    width: 120px;
+    height: 120px;
+    background-color: #ccc;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.channel-info h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.channel-info p {
+    margin: 5px 0 0 0;
+    color: #666;
+}
+
+.channel-content {
+    margin-top: 20px;
+}
